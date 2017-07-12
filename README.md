@@ -1,4 +1,4 @@
-# sublime-postcss-sorting
+# sublime-postcss-sorting-bureau
 
 Sublime Text plugin to sort CSS rules content with specified order. Powered by [postcss-sorting](https://github.com/hudochenkov/postcss-sorting).
 
@@ -19,7 +19,11 @@ On OS X you need to make sure it's in `/usr/local/bin` or symlink it there.
 
 ## Getting started
 
-In a CSS or PostCSS file, open the Command Palette (<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> (OS X), <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> (Windows/Linux))) and choose `Run PostCSS Sorting`. You can alternatively create one or more selections before running the command to only sort those parts. It should be whole rule.
+In a CSS or PostCSS file, open the Command Palette (<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>):
+
+![](http://i.imgur.com/vtfxiwD.jpg)
+
+Then install package normally via Package Control and choose `Run PostCSS Sorting`. You can alternatively create one or more selections before running the command to only sort those parts. It should be whole rule.
 
 There is keyboard shortcut also: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> (OS X), <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> (Windows/Linux).
 
